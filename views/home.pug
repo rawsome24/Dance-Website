@@ -1,0 +1,45 @@
+extends base.pug
+
+block scripts
+        script(src="/static/index.js")
+block style
+    style
+        include ../static/style.css
+
+block content   
+    section#introSection
+        div  Want to become a Super Duper Dancer
+        div.small  This is best you search for !!
+    section#missionSection
+        h2 Our Mission
+        div.card
+            h3 Dance Perfection
+            div.card-box
+                div.card-img
+                    img(src="/static/images/1.png", alt="") 
+
+                    div.card-content
+                    p Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, voluptates possimus! Obcaecati corrupti optio rerum vitae cumque ipsum iusto omnis adipisci qui eius?
+        div.card
+            h3 Dance the way you like
+            div.card-box
+                div.card-img
+                    img(src="/static/images/2.png", alt="") 
+
+                    div.card-content
+                    p Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, voluptates possimus! Obcaecati corrupti optio rerum vitae cumque ipsum iusto omnis adipisci qui eius?
+        div.card
+            h3 Expert Teaching
+            div.card-box
+                div.card-img
+                    img(src="/static/images/3.png", alt="") 
+
+                    div.card-content
+                    p Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, voluptates possimus! Obcaecati corrupti optio rerum vitae cumque ipsum iusto omnis adipisci qui eius?
+    section#sponserSection
+        h2 Our Sponsers
+            div#sponser
+                img(src="/static/images/sponser_1.png", alt="This is sponser image" class="spImage")
+                img(src="/static/images/sponser_2.png", alt="This is sponser image" class="spImage")
+                img(src="/static/images/sponser_3.jpg", alt="This is sponser image" class="spImage")
+                img(src="/static/images/sponser_4.jpg", alt="This is sponser image" class="spImage")

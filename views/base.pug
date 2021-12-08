@@ -1,0 +1,22 @@
+//- layout.pug
+doctype html
+html
+  head
+    title Ham he super dancer
+    block scripts
+    block style
+    body
+        nav#navbar 
+            ul
+                div#logo
+                    img(src="/static/images/dance website logo.png")
+                    | HSD
+                    li #[a(href="/") Home]
+                    li #[a(href="/") Services]
+                    li #[a(href="/contact") Contact Us]
+                    li #[a(href="/") About Us]
+                    li #[a(href="/") Log In]
+
+    block content        
+    footer#footer
+      | Copyright 2021 Ham he super dance.com | All Rights Reserved

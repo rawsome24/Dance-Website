@@ -1,0 +1,37 @@
+h1{
+    text-align: center;
+    margin: 12px 0px;
+}
+.myForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.myInput{
+    width: 50%;
+    display: block;
+    padding: 9px;
+    margin: 11px;
+    font-size: 16px;
+    border: 2px solid rgb(153, 0, 0);
+    border-radius: 10px;
+    outline: none;
+}
+.btn{
+    padding: 12px;
+    font-size: 15px;
+    border: 2px solid rgb(153, 0, 0);
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    margin: 12px 13px;
+}
+.container{
+    min-height: 70vh;
+    margin: 42px 0px;
+}
+.container h1{
+    font-family: 'Roboto', sans-serif;
+}

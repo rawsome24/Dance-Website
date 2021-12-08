@@ -1,0 +1,62 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    title Ham he super dancer
+    style
+      include ../static/style.css
+  body
+    nav#navbar 
+      ul
+          div#logo
+            img(src="/static/images/dance website logo.png")
+            | HSD
+          li #[a(href="/") Home]
+          li #[a(href="/") Services]
+          li #[a(href="/") Contact Us]
+          li #[a(href="/") About Us]
+          li #[a(href="/") Log In]
+    
+    section#introSection
+      div  Want to become a Super Duper Dancer
+      div.small  This is best you search for !!
+    section#missionSection
+      h2 Our Mission
+      div.card
+        h3 Dance Perfection
+            div.card-box
+              div.card-img
+                img(src="/static/images/1.png", alt="") 
+
+                div.card-content
+                p This is best dance academy in India
+      div.card
+        h3 Dance the way you like
+           div.card-box
+              div.card-img
+                img(src="/static/images/2.png", alt="") 
+
+                div.card-content
+                p This is best dance academy in India
+      div.card
+        h3 Expert Teaching
+           div.card-box
+              div.card-img
+                img(src="/static/images/3.png", alt="") 
+
+                div.card-content
+                p This is best dance academy in India
+    section#sponserSection
+      h2 Our Sponsers
+        div#sponser
+            img(src="/static/images/sponser 1.png", alt="This is sponser image" class="spImage")
+            img(src="/static/images/sponser 2.png", alt="This is sponser image" class="spImage")
+            img(src="/static/images/sponser 3.png", alt="This is sponser image" class="spImage")
+            img(src="/static/images/sponser 4.png", alt="This is sponser image" class="spImage")
+
+    footer#footer
+      | Copyright © 2021 Ham he super dance.com | All Rights Reserved
+    
+    
+    script
+      include /static/index.js
