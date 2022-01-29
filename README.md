@@ -1,5 +1,5 @@
 # Dance-Website
-This is dance website where user fill their details in contact page and system will automatically assign teacher to student.
+This is a dance website where user fill their details in contact page and system will automatically assign teacher to student.
 ![image](https://user-images.githubusercontent.com/95746772/145337593-8ad76fe8-6f74-4371-9f65-a4f529d14492.png)
 
                                                             Landing page of website
